@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5cd7f9">
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/setting7"
+        android:text="MODE"
+        android:textSize="42dp"
+        android:textStyle="bold"
+        android:textColor="#248337"
+        android:fontFamily="@font/copy"
+        />
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="-270dp"
+        android:background="@drawable/setting7">
+
+        <Button
+            android:id="@+id/btnEasy"
+            android:layout_width="80dp"
+            android:layout_height="200dp"
+            android:drawableTop="@drawable/easy1"
+            android:text="Easy Mode"
+            android:textSize="13dp"
+            android:textColor="#248337"
+            android:paddingTop="7sp"
+            android:drawablePadding="-15sp"
+            android:onClick="onClick"
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/setting7">
+        <Button
+            android:id="@+id/btnNormal"
+            android:layout_width="80dp"
+            android:layout_height="200dp"
+            android:drawableTop="@drawable/easy4"
+            android:text="Normal Mode"
+            android:textSize="13dp"
+            android:textColor="#248337"
+            android:paddingTop="7sp"
+            android:drawablePadding="-15sp"
+            android:onClick="onClick"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/setting7">
+        <Button
+            android:id="@+id/btnHard"
+            android:layout_width="80dp"
+            android:layout_height="200dp"
+            android:drawableTop="@drawable/hard2"
+            android:text="Hard Mode"
+            android:textSize="13dp"
+            android:textColor="#248337"
+            android:paddingTop="4sp"
+            android:drawablePadding="-15sp"
+            android:onClick="onClick"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="-330dp"
+        android:background="#5cd7f9">
+        <Button
+            android:id="@+id/btnSetting"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#5cd7f9"
+            android:drawableTop="@drawable/ic_settings_black_24dp"
+            android:layout_marginTop="20dp"
+
+            />
+    </LinearLayout>
+</LinearLayout>
